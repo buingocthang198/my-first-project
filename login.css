@@ -1,0 +1,38 @@
+﻿/*Các xử lý định dạng cho login.html*/
+/*Thừa kế các file css từ basic*/
+@import url('basic.css');
+@import url('responsived.css');
+
+.loginview {
+	width: 450px;
+	height:auto;
+	border: 0px solid #555;
+	background: #eee;
+	box-shadow: 5px 5px 3px #aaa;
+	/*
+	border-width:1px;
+	border-style:solid;
+	border-color:blue;
+	*/
+	/*
+	margin-left:auto;
+	margin-right:auto;
+	*/
+	margin: 0 auto;
+}
+
+.lang {
+	display: inline-block;
+	padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+

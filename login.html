@@ -1,0 +1,69 @@
+﻿<html>
+	<head>
+		<title>Đăng nhập</title>
+		<link href="login.css" rel="stylesheet" type="text/css"/>
+		<script language="javascript" src="login.js"></script>
+	</head>
+	<body>
+		<div class="loginview" id="loginview">
+			<form name="frmLogin" action="" method="">
+				<div class="row-heading">
+					Đăng nhập
+				</div>
+				
+				<div class="row">
+					<div class="c5 labels"><span>Tên đăng nhập</span></div>
+					<div class="c7 fields">
+						<input type="text" name="txtUserName" />
+					</div>
+					<div class="clr"></div>
+				</div>
+				
+				<div class="row">
+					<div class="c5 labels"><span>Mật khẩu</span></div>
+					<div class="c7 fields">
+						<input type="text" name="txtUserPass" />
+					</div>
+					<div class="clr"></div>
+				</div>
+				
+				<div class="row">
+					<div class="c5 labels">
+						<span>
+							<input type="checkbox" name="chkSave" id="chkSave" />
+						</span>
+					</div>
+					<div class="c7 fields">
+						<label for="chkSave">Lưu thông tin đăng nhập</label>
+					</div>
+					<div class="clr"></div>
+				</div>
+				
+				<div class="row">
+					<div class="c12 acenter">
+						<a href="#">Tạo tài khoản</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+						<a href="#">Đăng nhập với Google</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+						<a href="#">Quên mật khẩu</a>
+					</div>
+					<div class="clr"></div>
+				</div>
+				
+				<div class="row">
+					<div class="c12 acenter">
+						<input type="button" value="Đăng nhập" name="btnLogin" onclick="checkValidLogin(this.form)"/>
+						<input type="button" value="Thoát" name="btnExit"/>
+					</div>
+					<div class="clr"></div>
+				</div>
+				
+				<div class="row-bottom">
+					<div class="c12 aright">
+						<a href="#" class="lang">English</a>
+					</div>
+					<div class="clr"></div>
+				</div>
+				
+			</form>
+		</div>
+	</body>
+</html>
